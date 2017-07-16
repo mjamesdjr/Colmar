@@ -1,11 +1,8 @@
 /*
-color hunt.co: http://colorhunt.co/c/42533
- dark: #384259
- red: hex: #F73859 hsl: 350Â° 92% 59%
-lightgreen: #7AC7C4
+colors from http://paletton.com/#uid=1350u0k5yU200++27Zq9ALbe7zr
+Dark green: #65B597
 very light green: #C4EDDE
-font: Roboto and poppins from https://www.behance.net/gallery/35768979/Typography-Google-Fonts-Combinations
-blue: #3490DE for read more links
+font: Roboto https://www.behance.net/gallery/35768979/Typography-Google-Fonts-Combinations
 white: #ffffff
 
 */
@@ -15,7 +12,7 @@ html {
 
 body {
   background-color: #65B597;
-  font-family: "Poppins","Helvetica", "Arial", serif;
+  font-family: "Roboto","Helvetica", "Arial", serif;
 }
 div {
   display: block;
@@ -27,7 +24,6 @@ header {
   position: fixed;
   width: 100%;
   font-size: 1.5rem;
-  border-bottom: 1px;
 }
 header nav {
   height: 4rem;
@@ -35,7 +31,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  border-bottom: 1px solid #384259;
 }
 .logo {
   display: flex;
@@ -87,7 +83,7 @@ header nav {
   cursor: pointer;
 }
 .button:hover {
-  color: #7AC7C4;
+  color: #C4EDDE;
 }
 
 /* mobile */
@@ -163,7 +159,7 @@ h3 {
   line-height: 1.5;
 }
 #Banner .button {
-  background-color: #c4edde;
+  background-color: #65B597;
   padding: 0.5rem 0;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -280,11 +276,11 @@ h5 {
   font-size: 1.1rem;
 }
 .expand a{
-  color: #3490DE;
+  color: #FFFFFF;
   font-size: 1rem;
 }
 .mini-container:hover {
-  background-color: #7AC7C4;
+  background-color: #C4EDDE;
 }
 .mobile-image {
   display: none;
@@ -473,7 +469,7 @@ h5 {
 /* footer */
 footer {
   border-top: 1px solid #384259;
-  background-color: #F0FFFF;
+  background-color: #FFFFFF;
   padding: 10px 24px 64px 24px;
   font-size: 1rem;
   display: flex;
